@@ -1,0 +1,271 @@
+@font-face {
+    font-family: arial;
+    src: url(../font/arial_narrow_7.ttf) format(‘truetype’);
+}
+body{
+    margin-left:0px;
+    margin-right:0px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+a{
+    text-decoration: none;
+}
+.enlaces_index{
+    padding: 15px;
+    margin: 2px;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 14px;
+    color: #777777;
+}
+.enlaces_index:hover{
+    background-color: #1E90FF;
+    color: #FFF;
+}
+#cabecera{
+    text-align: center;
+}
+.enlaces_index_pulsado{
+    padding: 15px;
+    margin: 2px;
+    font-family: arial;
+    font-size: 14px;
+    background-color: #1E90FF;
+    color: #FFF;
+}
+.formulario{
+    padding: 5px;
+    color: #FFF;
+    background-color:  #00BBFF;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 1px solid #2222e3;
+}
+.formulario_caja{
+    padding: 5px;
+    color: #FFF;
+    background-color:  #00BBFF;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 1px solid #2222e3;
+    width: 300px;
+    height: 100px;
+}
+*::-webkit-input-placeholder {
+    /* Google Chrome y Safari */
+    color: #FFF;
+}
+*:-moz-placeholder {
+    /* Firefox anterior a 19 */
+    color: #FFF;
+}
+*::-moz-placeholder {
+    /* Firefox 19 y superior */
+    color: #FFF;
+}
+*:-ms-input-placeholder {
+    /* Internet Explorer 10 y superior */
+    color: #FFF;
+}
+.boton{
+    padding: 5px;
+    color: #FFF;
+    background-color:  #00BBFF;
+    border: 2px solid #2222e3;
+    cursor: pointer;
+}
+.contenedor{
+    margin-top: 18px;
+    width: 100%;
+    background-color: #F5F5F1;
+}
+.linea{
+    width: 100%;
+    height: 7px;
+    background-color: #DEDEDE;
+}
+.contenido{
+    width: 75%;
+    margin: auto;
+}
+.pie{
+    background-color: #202020;
+    height: 100px;
+    width: 100%;
+    color: #FFF;
+}
+#mensaje_flash{
+    color: red;
+    font-weight: bold;
+    float: right;
+    position: absolute;
+}
+/******** ESTRUCTURA PLANTILLA PRIVADA ***********/
+.carrito{
+    height: 70px;
+    cursor: pointer;
+}
+#carrito, #categorias, #titulo{
+    margin-bottom: -5px;
+    min-height: 90px;
+    text-align: center;
+    background-color: #c5f0f0;
+    border: 1px solid #286bf0;
+}
+#carrito, #categorias{
+    width: 33%;
+    float: left;
+    border-radius: 80px 80px 80px 80px;
+    -moz-border-radius: 80px 80px 80px 80px;
+    -webkit-border-radius: 80px 80px 80px 80px;
+    display: block;
+}
+#titulo{
+    width: 66%;
+    float: right;
+    border-radius: 11px 11px 11px 11px;
+    -moz-border-radius: 11px 11px 11px 11px;
+    -webkit-border-radius: 11px 11px 11px 11px;
+    background-image: url(../img/encabezado3.jpg);
+    background-size: cover;
+}
+#datos{
+    width: 66%;
+    float: right;
+}
+#general1, #general2{
+    width: 100%;
+    min-height: 100px;
+    display: inline-block;
+}
+.categorias{
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    color: #FFF;
+    background-color:  #0075FF;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 1px solid #2222e3;
+    cursor: pointer;
+}
+.cat_admin{
+    background-color: #FF0000;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    color: #FFF;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 1px solid #2222e3;
+}
+.secciones{
+    text-align: left;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 60%;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 1px solid #2222e3;
+    font-size: 30px;
+    cursor: pointer;
+}
+.imagen{
+    height: 50px;
+}
+.dialogos{
+    display: none;
+}
+.previa{
+    border: 1px solid #2222e3;
+    height: 90px;
+    cursor: pointer;
+}
+#foto_producto{
+    float: right;
+    position: relative;
+}
+#numero{
+    width: 80px;
+}
+.tabla{
+    margin:auto;
+    background-color: #c5f0f0;
+    color:#000;
+    display: table;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 1px solid #2222e3;
+    width:80%;
+    text-align:center;
+}
+.fila{
+    margin:6px;
+    padding:6px;
+    display:table-row;
+    cursor: pointer;
+        
+}
+.columna{
+    margin:6px;
+    padding:6px;
+    display: table-cell;
+    width: auto;
+    border-top: 2px solid #2222e3;
+}
+.columna_primera{
+    margin:6px;
+    padding:6px;
+    display: table-cell;
+    width: auto;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: auto;
+}
+.producto{
+    width: 50%;
+    background-color: #c5f0f0;
+    border: 1px solid #2222e3;
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    display: block;
+}
+.span_productos{
+    font-weight: bold;
+    border-bottom: 1px solid #2222e3;
+}
+.cantidad{
+    width: 25px;
+    text-align: right;
+}
+.anadir_carrito{
+    margin-bottom: -10px;
+    background-color:  #00DDFF;
+    border: 2px solid #2222e3;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    display: inline-block;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/carro2.png);
+    background-size: cover;
+}

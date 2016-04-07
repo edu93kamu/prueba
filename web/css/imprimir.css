@@ -1,0 +1,11 @@
+body{
+    float: left;
+    width: 100%;
+    margin-left: -33%;
+}
+#general1, #categorias, #cabecera{
+    display: none;
+}
+.pie, .noprint{
+    display: none;
+}
