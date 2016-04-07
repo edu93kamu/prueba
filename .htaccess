@@ -1,9 +1,0 @@
-RewriteEngine On
-RewriteRule ^([a-zA-Z_]*)$ web/index.php?accion=$1 [L,NC]
-RewriteRule ^([a-zA-Z_]+)/([0-9]+)$ web/index.php?accion=$1&param1=$2 [L,NC]
-RewriteRule ^([a-zA-Z_]+)/pag/([0-9]+)$ web/index.php?accion=$1&param1=$2 [L,NC]
-
-
-
-
-
